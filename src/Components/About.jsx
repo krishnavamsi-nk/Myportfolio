@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,20 +24,14 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Computer Science student at the Indian Institute of Information Technology with a solid grasp of fundamental computer science concepts. I’ve honed my skills as a Full Stack Developer, accumulating one year of practical experience. My tech stack revolves around the MERN stack, positioning me as a versatile developer capable of handling both front-end and back-end. Along with that, I have worked on deep learning projects with teammates and have experience with DSA algorithms.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+
+const skillsList = ["C", "Python", "Java", "JavaScript", "React and NodeJS", "Bootstrap"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -45,7 +39,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am committed to solving complex problems in creative ways, driving innovation through my work as a software developer. By leveraging my technical expertise, I continually seek new and improved methods to make technology more accessible and user-friendly for everyone.";
 
 const About = () => {
   return (

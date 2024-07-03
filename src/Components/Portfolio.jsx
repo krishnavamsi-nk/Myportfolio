@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/socials/profile.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "picture of my linkedin";
 
 /**
  * Project list
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Centralized Healthcare System",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A centralized healthcare system consolidates healthcare services and data into a unified framework to improve efficiency, accessibility, and quality of care for all patients.",
+    url: "https://github.com/krishnavamsi-nk/Centralized_Healthcare_System",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Capstone Project",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Medicare Healthcare Website! Our platform aims to provide accessible and affordable healthcare services to individuals and families. This README.md file provides an overview of the project, its contents, installation instructions, and features",
+    url: "https://github.com/krishnavamsi-nk/capstone-project",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/krishnavamsi-nk/resume",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Mini-projects-javascript",
+    description: "This is mini-javascript projrcts which are developed using js script",
+    url: "https://github.com/krishnavamsi-nk/mini-projects-javascript",
   },
 ];
 
